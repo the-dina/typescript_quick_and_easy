@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Test Modules</title>
+</head>
+
+<body>
+    <button id="testBtn">Click on me to test things</button>
+    <script type="text/javascript" src="system.js"></script>
+    <script type="text/javascript">
+        System.config({
+            packages: {        
+                '' : {
+                    defaultExtension: 'js'
+                }
+            }
+        });    
+        System.import('app'); 
+    </script>
+</body>
+</html>
